@@ -46,30 +46,11 @@ import io
 
 # print(counter)
 
-
-	
-
-"""
-Steps to completion
-
-1) Make sure that text can be transfered to the cells in word table in
-
-2) check function for adding rows
-
-3) start putting it all together. 
-
-
-
-"""
-
 file  = openpyxl.load_workbook(filedialog.askopenfilename(title = "Select the excel file to be transferred from."), data_only=True)
 
 sheet = file.sheetnames
 
 sheet = file[sheet[0]]
-
-# print(sheet.max_row)
-
 
 image_loader = SheetImageLoader(sheet)
 

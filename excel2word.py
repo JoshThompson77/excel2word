@@ -6,7 +6,7 @@ import openpyxl
 from openpyxl_image_loader import SheetImageLoader
 import io
 
-root = tk.TK()
+root = tk.Tk()
 root.withdraw()
 
 # This allows selection of excel file to be transferred from
